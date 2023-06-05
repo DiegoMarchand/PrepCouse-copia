@@ -28,32 +28,32 @@ const nuevoModulo = 21 % 5 === 1 ;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  return(str)
+  return str;
 }
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  return (x+y)
+  return x+y;
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  return (x-y)
+  return x-y;
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  return (x*y)
+  return x*y;
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  return (x/y)
+  return x/y;
 }
 
 function sonIguales(x, y) {
@@ -64,7 +64,7 @@ function sonIguales(x, y) {
   return true;
 } else {
   return false;
-}
+  }
 }
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
@@ -221,7 +221,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  return euro*1.2
+  return euro*1.2;
 }
 
 
