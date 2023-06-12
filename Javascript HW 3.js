@@ -6,7 +6,7 @@ function devolverPrimerElemento(array) {
   // array --> [8, 9, 10, 12, 14]
   // array --> [9, 10, 12, 14]
   // return array[0]  <-- (otro metodo)
-  var shift = array.shift() //8
+  var shift = array.shift(); //8
   return shift;
 }
 
@@ -16,7 +16,7 @@ function devolverUltimoElemento(array) {
   // Tu código:
   // el .shift nos elmina el primer elemento, y el pop el último.
   // return array [array.length-1]; <-- otro método
-  var valor = array.pop()
+  var valor = array.pop();
   return valor;
 }
 
@@ -25,7 +25,7 @@ function obtenerLargoDelArray(array) {
   // Devuelve el largo de un array
   // Tu código:
   // return array.length;
-  var longitud = array.length
+  var longitud = array.length;
   return longitud;
 }
 
@@ -53,7 +53,7 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
   // Tu código:
-  array.push(elemento)
+  array.push(elemento);
   return array;
 }
 
@@ -178,7 +178,7 @@ function cuentoElementos(arreglo){
   var acumulador = 0;   // lo pruebo con el 0 que valdrá 20, el 1 que valdrá 9, el 2 que valdrá 19, etc.
   for(var i = 0; i < arreglo.length; i ++){
     if(arreglo[i] > 18){
-      acumulador = acumulador + 1
+      acumulador = acumulador + 1;
     }
   }
  return acumulador;
@@ -211,7 +211,7 @@ function empiezaConNueve(n) {
   // nos ayuda a obtener la representación en cadena de caracteres de un objeto.
   // poniendo el primer arreglo [0] me aseguro que comience con nueve.
   // si no ponemos el 9 entre comillas nos tirará error porque espera un string, no un número.
-  let numero = n.toString()
+  let numero = n.toString();
 
   if(numero[0]==="9"){
     return true;
@@ -252,7 +252,7 @@ function mesesDelAño(array) {
     return "No se encontraron los meses pedidos";
    } */
   // Tu código:
-    let nuevoArray =[]
+    let nuevoArray =[];
   for(let i = 0; i < array.length; i++){
     if(array[i]==="Enero" || array [i] === "Marzo" || array[i] === "Noviembre") {
       nuevoArray.push(array[i])
@@ -269,7 +269,7 @@ function mayorACien(array) {
   //La función recibe un array con enteros entre 0 y 200. Recorrer el array y guardar en un nuevo array sólo los
   //valores mayores a 100 (no incluye el 100). Finalmente devolver el nuevo array.
   // Tu código:
-  var nuevoArray = []
+  var nuevoArray = [];
   for(let i = 0; i < array.length; i++){
     if(array[i] > 100) {
       nuevoArray.push(array[i])
@@ -313,21 +313,21 @@ function breakStatement(numero) {
  } */
   // Tu código:
 
-  let nuevoArray= []
-  var suma = numero 
+  let nuevoArray= [];
+  var suma = numero; 
 
   for(var i = 0; i < 10; i++){
     suma = suma + 2;
     if (suma === i) {
       break;
     } else{
-      nuevoArray.push(suma)
+      nuevoArray.push(suma);
     }
   }
     if(i < 10) {
-  return "Se interrumpió la ejecución"
+  return "Se interrumpió la ejecución";
 } else {
-  return nuevoArray
+  return nuevoArray;
 }
 }
 

@@ -64,7 +64,7 @@ function forEach(array, cb) {
     posición en nuestro Array).
   */
   array.forEach(function(a) {
-    cb(a)
+    cb(a);
   })
   /* si lo hiciéramos con un bucle for, la única diferencia es que
   tendríamos que pasar (array[i]) en lugar de (a) al cb.
