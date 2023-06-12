@@ -41,7 +41,6 @@ if (status===1) {
   return "Away";
 } else if (status===3) {
   return "Suspendido";
-}  
 } else {
   return "Offline";
 }
